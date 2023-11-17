@@ -3,6 +3,8 @@ import Hello from './Hello';
 import Clock from './clock'
 import React from 'react'
 import Input from './input';
+import { Counter } from './Counter';
+import { Horloge } from './horloge';
 
 
 class  App extends React.Component  {
@@ -14,12 +16,12 @@ class  App extends React.Component  {
   }
 
   render(){
+
     return (
       <div className="App">
-        <p>Test de React</p>
-        <Hello color="red" name="Alex" />
-        <Clock />
-        <Input/>
+         <Counter color='red'></Counter>
+         <Counter color='green'></Counter>
+         <Horloge></Horloge>
       </div>
     );
   }
