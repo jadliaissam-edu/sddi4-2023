@@ -5,6 +5,8 @@ import React from 'react'
 import Input from './input';
 import { Counter } from './Counter';
 import { Horloge } from './horloge';
+import Age  from './age_display';
+import UserList from './user_list';
 
 
 class  App extends React.Component  {
@@ -19,9 +21,7 @@ class  App extends React.Component  {
 
     return (
       <div className="App">
-         <Counter color='red'></Counter>
-         <Counter color='green'></Counter>
-         <Horloge></Horloge>
+        <UserList/>
       </div>
     );
   }

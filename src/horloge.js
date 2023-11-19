@@ -26,7 +26,7 @@ export class Horloge extends React.Component{
                 onMouseEnter={()=>this.setState({color:'red'})}
                 onMouseLeave={()=>this.setState({color:'black'})} 
                 >
-                    TIME is {this.state.date.toISOString()}
+                    Time is {this.state.date.toISOString()}
                 </h1>
             </div>
         )
